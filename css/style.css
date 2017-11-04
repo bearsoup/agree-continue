@@ -1,0 +1,143 @@
+body {
+  /*font-family: 'Roboto', sans-serif;*/
+  /*font-weight: 300;*/
+  margin: 2rem;
+  margin-top: 0;
+  padding: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+p, li {
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+
+ul>li>ul>li {
+  font-size: 1em;
+  line-height: 1.7em;
+}
+
+.footer {
+  background-color: #fff;
+  height: 100px;
+  width: 100%;
+}
+
+.arrow-icon {
+  text-align: center;
+}
+
+.glyphicon-chevron-down {
+  font-size: 1.2em;
+  color: #f44336;
+}
+
+.line {
+	/*max-width: 95%;*/
+	height: 1px;
+	background-color: #f44336;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  padding: 9px 23.5px;
+	border-radius: 2px;
+	border: solid 1px #f44336;
+  margin: 6px;
+}
+
+.agree {
+  color: #f44336;
+  background-color: #fff;
+}
+
+.agree:hover {
+  color: #f44336;
+  text-decoration: none;
+}
+
+.disagree {
+  background-color: #f44336;
+  color: #fff;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+.disagree:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* POP UP */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  /*border-radius: 5px;*/
+  max-width: 300px;
+  position: relative;
+  /*transition: all 5s ease-in-out;*/
+}
+
+.popup h3 {
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  /*color: #333;
+  font-family: Tahoma, Arial, sans-serif;*/
+}
+.popup .okay-container {
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+
+.popup .content {
+  /*max-height: 80%;*/
+  /*overflow: auto;*/
+  padding: 5px 0 5px;
+}
+
+.popup .content * {
+  margin: 10px 0 10px 0;
+}
+
+.popup .content .content-red {
+  color: #f44336;
+  font-size: 1.1em;
+}
+
+/* AGREE PAGE ELEMETS */
+img {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.credits {
+  font-size: .85em;
+}
+
+.credits a {
+  color: #f44336;
+  text-decoration: none;
+}
